@@ -63,7 +63,8 @@ Entidade responsável pelo resgate e cuidado dos animais.
 
 ### Requisitos Funcionais
 
-|ID | Descrição | Prioridade |
+|ID    | Descrição                                                                                                                                     | Prioridade |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 |RF-01 | A aplicação deve conter tela de visualização de perfis de animais disponíveis para adoção | Alta |
 |RF-02 | A aplicação deve possibilitar meios de iniciar o processo de adoção |Alta |
 |RF-03 | A aplicação deve possibilitar o cadastro do animal para doação | Alta |
@@ -73,7 +74,8 @@ Entidade responsável pelo resgate e cuidado dos animais.
 
 ### Requisitos Não-Funcionais
 
-|ID | Descrição | Prioridade |
+|ID    | Descrição                                                                                                                                     | Prioridade |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 |RNF-01 | A aplicação deve ter uma interface intuitiva e de fácil navegação | Alta |
 |RNF-02 | A aplicação deve garantir a segurança dos dados dos usuários | Alta |
 |RNF-03 | A aplicação deve funcionar com responsividade para acesso em dispositivos móveis  | Alta |
