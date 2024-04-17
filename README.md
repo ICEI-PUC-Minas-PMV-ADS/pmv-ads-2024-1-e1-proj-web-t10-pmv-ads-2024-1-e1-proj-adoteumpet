@@ -1,12 +1,12 @@
-# Título do Projeto
+# Adote um Pet
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1º semestre/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é desenvolver uma aplicação web front-end para facilitar tanto a adoção virtual de animais resgatados quanto a possibilidade de contribuição financeira para custear os cuidados desses animais em ONGs
 
 ## Integrantes
 
