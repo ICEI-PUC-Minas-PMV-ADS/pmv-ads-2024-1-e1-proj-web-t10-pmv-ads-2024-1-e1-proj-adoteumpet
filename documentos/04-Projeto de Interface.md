@@ -63,5 +63,5 @@ A tela de cadastro apresenta os seguintes campos para a inserção das informaç
 ![cadastro2](https://media.discordapp.net/attachments/1219797639671971873/1229222753849053194/image.png?ex=662ee5e6&is=661c70e6&hm=1e76171e6768830aefd0579750ebbc86e53bd478548346a0ae2bdcea4c077c15&=&format=webp&quality=lossless&width=1246&height=676)
 
 <figure> 
-    <figcaption>Figura 10 - Tela de Cadastro de Tutores
+    <figcaption>Figura 10 - Tela de Cadastro de usuários
 </figure>
