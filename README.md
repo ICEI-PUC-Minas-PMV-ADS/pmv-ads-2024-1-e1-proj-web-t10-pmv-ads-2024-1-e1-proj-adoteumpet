@@ -4,7 +4,7 @@
 
 `Desenvolvimento de aplicação web front-end`
 
-`1º semestre/2022`
+`1º semestre/2024`
 
 O objetivo geral deste projeto é desenvolver uma aplicação web front-end para facilitar tanto a adoção virtual de animais resgatados quanto a possibilidade de contribuição financeira para custear os cuidados desses animais em ONGs
 
