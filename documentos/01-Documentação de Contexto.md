@@ -1,35 +1,51 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Este projeto visa desenvolver uma aplicação web front-end para facilitar tanto a adoção
+virtual de animais resgatados quanto a possibilidade de contribuição financeira para custear
+os cuidados desses animais em ONGs. A iniciativa surge da necessidade de proporcionar
+um ambiente online que conecte animais em busca de um lar com pessoas interessadas em
+adotar um pet, bem como permitir que aqueles que não têm tempo ou espaço para cuidar
+de um animal possam ajudar financeiramente as ONGs responsáveis pelos cuidados
+desses animais.
+
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Atualmente, muitos animais resgatados encontram dificuldades em serem adotados devido
+à falta de visibilidade e acessibilidade para potenciais adotantes. Além disso, há pessoas
+que, embora desejem ajudar, não têm tempo ou espaço para cuidar de um animal de
+estimação. Nesse sentido, as ONGs que resgatam e cuidam desses animais enfrentam
+desafios financeiros para custear os cuidados veterinários, alimentação e abrigo.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O principal objetivo deste projeto é desenvolver uma plataforma web que simplifique tanto o
+processo de adoção de animais resgatados quanto a contribuição financeira para custear os
+cuidados desses animais em ONGs. Além disso, busca-se aumentar a visibilidade dos
+animais disponíveis para adoção e promover a conscientização sobre a importância da
+adoção responsável e do apoio financeiro às ONGs de proteção animal.
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+A adoção de animais resgatados oferece um lar amoroso para esses animais e contribui
+para reduzir o número de animais em situação de abandono e maus tratos. Por outro lado, a
+contribuição financeira para as ONGs que cuidam desses animais é essencial para garantir
+que eles recebam os cuidados necessários enquanto aguardam por adoção. Uma
+plataforma online dedicada à adoção de animais resgatados e à contribuição financeira para
+as ONGs pode desempenhar um papel crucial ao conectar adotantes em potencial e
+pessoas dispostas a ajudar financeiramente com as ONGs, promovendo assim o bem-estar
+animal.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+• Adotantes em potencial: Pessoas interessadas em adotar um animal de estimação.
+• Pessoas dispostas a contribuir financeiramente: Indivíduos que desejam ajudar com
+os custos dos animais em ONGs, mesmo sem adotá-los.
+4
+• Organizações de resgate e abrigo de animais: Responsáveis por resgatar e cuidar
+dos animais disponíveis para adoção.
+• Voluntários: Indivíduos dispostos a contribuir com o processo de adoção e cuidados
+com os animais.
 
