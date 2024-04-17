@@ -28,7 +28,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   <li>Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.</li>
  </ul>
 
-O quadro kanban do grupo no GitHub está disponível no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/projects/2 e é apresentado, no estado atual, na figura abaixo:
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1063/views/1 e é apresentado, no estado atual, na figura abaixo:
 
 <figure> 
   <img src="https://media.discordapp.net/attachments/1219797639671971873/1229258526816473208/image.png?ex=662f0737&is=661c9237&hm=86d5a2eb5ff19a1c9dfb133a0b132a2e6ad68e023085ba63a088d83c75ef59f3&=&format=webp&quality=lossless&width=1360&height=676">
