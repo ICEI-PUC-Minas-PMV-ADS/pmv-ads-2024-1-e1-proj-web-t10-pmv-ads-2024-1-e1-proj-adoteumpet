@@ -40,7 +40,7 @@ A tela para cadastro dos animais apresenta os seguintes campos: Nome do animal, 
 <h3><b>Tela - Gerenciamento de animais</b></h3>
 A tela para cadastro dos animais apresenta os seguintes campos: Cards com a situação dos animais sob tutela da organização, informações sobre a adoção,informações sobre financiamento dos animais.
 
-![gerenciamento (1)](https://media.discordapp.net/attachments/1219797639671971873/1229238484531937310/image.png?ex=662ef48c&is=661c7f8c&hm=dd6b62e0b1dcdf5ae08354b9e4b0635b3d2815f58214156eb3efd8160df910f6&=&format=webp&quality=lossless&width=1326&height=676)
+![gerenciamento (1)](https://media.discordapp.net/attachments/1219797639671971873/1229238484531937310/image.png?ex=6642124c&is=6640c0cc&hm=4b6adca5da8ebf0d27e4621080952805d4346749b0cfab22448506d6c2a51324&=&format=webp&quality=lossless&width=1177&height=600)
 
   
 <figure>  
@@ -50,7 +50,7 @@ A tela para cadastro dos animais apresenta os seguintes campos: Cards com a situ
 <h3><b>Tela - Login</b></h3>
 A tela de Login apresenta campos para a inserção do e-mail e da senha, e a funcionalidade de recuperação de senha.
 
-  ![login](https://media.discordapp.net/attachments/1219797639671971873/1229238484531937310/image.png?ex=6642124c&is=6640c0cc&hm=4b6adca5da8ebf0d27e4621080952805d4346749b0cfab22448506d6c2a51324&=&format=webp&quality=lossless&width=1177&height=600)
+  ![login](https://media.discordapp.net/attachments/1227018070321664132/1229249731406860318/image.png?ex=66421cc6&is=6640cb46&hm=32ea145588045449d76be336f9b9a062239ceab91541b06343e9649de99823ce&=&format=webp&quality=lossless&width=1218&height=600)
 
 
 <figure> 
