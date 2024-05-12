@@ -50,7 +50,7 @@ A tela para cadastro dos animais apresenta os seguintes campos: Cards com a situ
 <h3><b>Tela - Login</b></h3>
 A tela de Login apresenta campos para a inserção do e-mail e da senha, e a funcionalidade de recuperação de senha.
 
-  ![login](https://media.discordapp.net/attachments/1219797639671971873/1229224628417986681/image.png?ex=662ee7a5&is=661c72a5&hm=a929d450d3b65d4a88536ee80621b673916e97e9a5073d071d7cd54970055351&=&format=webp&quality=lossless&width=1440&height=623)
+  ![login](https://media.discordapp.net/attachments/1219797639671971873/1229238484531937310/image.png?ex=6642124c&is=6640c0cc&hm=4b6adca5da8ebf0d27e4621080952805d4346749b0cfab22448506d6c2a51324&=&format=webp&quality=lossless&width=1177&height=600)
 
 
 <figure> 
