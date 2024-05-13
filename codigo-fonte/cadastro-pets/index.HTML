@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pet para Adoção</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="variables.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b4c4ed9305.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <img src="./assets/heart.png" alt="">
+
+            <h1>Adote um Pet</h1>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="menu-hamburguer">
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <ul class="sessoes">
+                <li class="sessao-btn"><a href="#inicio">Início</a></li>
+                <li class="sessao-btn"><a href="#adocao">Adoção</a></li>
+                <li class="sessao-btn"><a href="#cadastro">Cadastrar pet</a></li>
+                <li class="sessao-btn"><a href="#perfil">Perfil</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <div class="container">
+        <div class="instructions">
+            <h1>Cadastrar um Pet para Adoção</h1>
+            <h4>Preencha os campos para realizar o cadastro do Pet para adoção Presencial ou Virtual.</h4>
+        </div>
+        <div class="form">
+            <form>
+                <label for="nome">Nome do Animal:</label>
+                <input type="text" id="nome" name="nome">
+                
+                <label for="especie">Espécie do Animal:</label>
+                <input type="text" id="especie" name="especie">
+                
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca" name="raca">
+                
+                <label for="caracteristicas">Características do animal:</label>
+                <textarea id="caracteristicas" name="caracteristicas"></textarea>
+                
+                <label for="fotos">Fotos do animal:</label>
+                <input type="file" id="fotos" name="fotos" accept="image/*">
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social">
+            <div class="info">
+              <p class="info-text"> <i class="fa-regular fa-building icon"></i>Rua Baker, n° 221 - B</p>
+      
+              <p class="info-text"> <i class="fa-solid fa-phone icon"></i> (35) 92222-1111</p>
+      
+              <p class="info-text"> <i class="fa-regular fa-envelope icon"></i>adoteumpet@gmail.com</p>
+            </div>
+      
+            <div class="social-icons">
+              <a class="social-link" target="_blank" href="https://www.instagram.com/luminarmidia/"><i class="fa-brands fa-instagram"></i></a>
+      
+              <a class="social-link" href="https://web.whatsapp.com/send/?phone=5591992692808"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+          <div class="credits">
+            <p>© 2024 Adote um Pet | Built By <a target="_blank" href="https://linktr.ee/samuelmatheusbrito">Turma-05</a></p>
+          </div>
+    </footer>
+</body>
+</html>
