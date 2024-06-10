@@ -1,0 +1,233 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    background-color: var(--primary-blue);
+    color: var(--primary-soft);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.logo h1 {
+    font-size: 22px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.header .btns {
+    display: flex;
+    align-items: center;
+    gap: 700px;
+}
+
+.header .btns .sessoes {
+    display: flex;
+}
+
+.header .btns .sessoes .sessao-btn {
+    margin: 0 30px;
+}
+
+.header .btns .login-btn {
+    display: flex;
+}
+
+.header .btns .login-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .btns .login-btn .divisor {
+    background-color: var(--background-soft);
+    height: 40px;
+    width: 1px;
+}
+
+.header .btns a {
+    text-decoration: none;
+    color: var(--primary-soft);
+    transition: 0.3s ease-in-out;
+}
+
+.header a:hover {
+    color: var(--primary-orange);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.login-container {
+    background: var(--background-soft);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary-blue);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--primary-soft);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #102133;
+    color: var(--background-soft);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--background-soft);
+    background-color: var(--primary-orange);
+}
+
+.links {
+    text-align: center;
+    margin: 20px;
+}
+
+.links a {
+    display: block;
+    color: var(--primary-blue);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.links a:hover {
+    color: var(--primary-orange);
+}
+
+footer {
+    background-color: var(--primary-blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    padding: 10px 60px;
+}
+
+.social .info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-soft);
+    border: var(--primary-soft) solid 1px;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.social .info-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--primary-soft);
+}
+
+.social .social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.social .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-soft);
+    border: var(--primary-soft) solid 1px;
+    border-radius: 50%;
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.social .social-link:hover {
+    color: var(--primary-orange);
+    border: var(--primary-orange) solid 1px;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: var(--primary-soft);
+}
+
+.credits a {
+    color: var(--primary-soft);
+}
+
+.credits a:hover {
+    color: var(--primary-orange);
+}
