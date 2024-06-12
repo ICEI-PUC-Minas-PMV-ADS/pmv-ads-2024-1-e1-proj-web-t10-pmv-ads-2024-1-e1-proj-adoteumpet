@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "montserrat";
+    width: 100%;
+    background-color: var(--primary-soft);
+}
+
+main{
+    height: 100%;
+    padding: 50px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+
+.presentation .title{
+    color: var(--primary-blue);
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.presentation .subtitle{
+    color: var(--primary-blue);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.indice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.indice .title{
+    color: var(--primary-blue);
+    margin-bottom: 30px;
+}
+
+.indice .species{
+    display: flex;
+    gap: 20px;
+}
+
+.indice .species .species-btn{
+    color: var(--primary-soft);
+    background-color: var(--primary-gray);
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.indice .species .species-btn:hover{
+    color: var(--primary-blue);
+    background-color: var(--primary-orange);
+    cursor: pointer;
+}
+
+.search-area{
+    display: flex;
+    justify-content: center;
+    padding: 15px 50px;
+}
+
+.search-area .search{
+    background-color: var(--background-soft);
+    padding: 0px 20px;
+    font-size: 18px;
+    width: 100%;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 95%;
+    height: 455px;
+    border-collapse: collapse;
+    background-color: var(--primary-gray);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+thead{
+    font-size: 20px;
+    font-weight: 700;
+    height: 75px;
+}
+
+th, td{
+    font-weight: 400;
+    border-collapse: separate;
+    border: 1px solid var(--primary-soft);
+}
+
+th{
+    background-color: var(--primary-color);
+}
+
+td{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 0 20px;
+}
+
+img{
+    height: 115px;
+    width: 150px;
+}
+
+a{
+    font-size: 14px;
+    color: var(--primary-soft);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+a:hover{
+    color: var(--primary-orange);
+}
