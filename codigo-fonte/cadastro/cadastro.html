@@ -2,113 +2,108 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/variables.css">
-  <link rel="stylesheet" href="../css/menu-footer.css">
-  <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/menu-footer.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
 
-  <script src="https://kit.fontawesome.com/b4c4ed9305.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b4c4ed9305.js" crossorigin="anonymous"></script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <title>Cadastro</title>
 </head>
 
 <body>
 
-  <header class="header">
+    <header class="header">
 
-    <h1 class="logo">Adote<span>um</span>Pet<span>.</span></h1>
+        <h1 class="logo">Adote<span>um</span>Pet<span>.</span></h1>
 
-    <nav>
+        <nav>
 
-      <div class="btns">
-        <ul class="sessoes">
+            <div class="btns">
+                <ul class="sessoes">
 
-          <li class="sessao-btn"><a href="../home-page/index.html">Início</a></li>
-          <li class="sessao-btn"><a href="../adoption/adoption.html">Adoção</a></li>
-          <li class="sessao-btn"><a href="../cadastro-pets/cadastro-pets.html">Cadastrar pet / Adotar</a></li>
-          <li class="sessao-btn"><a href="../perfil/perfil.html">Perfil</a></li>
+                    <li class="sessao-btn"><a href="../home-page/index.html">Início</a></li>
+                    <li class="sessao-btn"><a href="../adoption/adoption.html">Adoção</a></li>
+                    <li class="sessao-btn"><a href="../cadastro-pets/cadastro-pets.html">Cadastrar pet</a></li>
+                    <li class="sessao-btn"><a href="../perfil/perfil.html">Perfil</a></li>
 
-        </ul>
+                </ul>
 
-        <ul class="login-btn">
-          <li><a href="">Login</a></li>
-          <div class="divisor"></div>
-          <li><a href="../cadastro/cadastro.html">Inscrever-se</a></li>
-        </ul>
-      </div>
+                <ul class="login-btn">
+                    <li><a href="../login/login.html">Login</a></li>
+                    <div class="divisor"></div>
+                    <li><a href="../cadastro/Projeto Cadastro/cadastro.html">Inscrever-se</a></li>
+                </ul>
+            </div>
 
-    </nav>
+        </nav>
 
-  </header>
+    </header>
 
-  <main>
+    <main>
+        <div class="register-container">
+            <h2>Cadastre-se</h2>
+                <div class="input-group">
+                  <label for="email">Nome</label>
+                  <input type="text" id="nome" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input" required>
+                </div>
+                <div class="input-group">
+                  <label for="email">Telefone</label>
+                  <input type="text" id="telefone" class="input" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="senha" class="input" name="password" required>
+                </div>
+                <button id="sendButton">Cadastrar</button>
+        </div>
+    </main>
 
-    <div class="tela-cadastro">
+    <footer>
 
-      <h1 class="titulo">Cadastro</h1>
+        <div class="info">
 
-      <div class="campos">
+            <p class="info-text"> <i class="fa-regular fa-building icon"></i>Rua Baker, n° 221 - B</p>
 
-        <div class="colunas">
+            <p class="info-text"> <i class="fa-solid fa-phone icon"></i> (35) 92222-1111</p>
 
-          <input type="name" placeholder="Nome">
-
-          <input type="text" placeholder="E-mail">
-
-          <input type="tel" placeholder="Telefone">
-
-          <input type="password" placeholder="Senha">
+            <p class="info-text"> <i class="fa-regular fa-envelope icon"></i>adoteumpet@gmail.com</p>
 
         </div>
 
-      </div>
+        </div>
 
-      <a href="../perfil/perfil.html">Enviar</a>
+        <div class="credits">
 
-    </div>
+            <h1 class="logo">Adote<span>um</span>Pet<span>.</span></h1>
 
-  </main>
+            <p>© 2024 Adote um Pet | Built By <a target="_blank"
+                    href="https://linktr.ee/samuelmatheusbrito">Turma-05</a></p>
 
-  <footer>
+        </div>
 
-    <div class="info">
+        <div class="social-icons">
 
-      <p class="info-text"> <i class="fa-regular fa-building icon"></i>Rua Baker, n° 221 - B</p>
+            <a class="social-link" target="_blank" href="https://www.instagram.com/luminarmidia/"><i
+                    class="fa-brands fa-instagram"></i></a>
 
-      <p class="info-text"> <i class="fa-solid fa-phone icon"></i> (35) 92222-1111</p>
+            <a class="social-link" href="https://web.whatsapp.com/send/?phone=5591992692808"><i
+                    class="fa-brands fa-whatsapp"></i></a>
 
-      <p class="info-text"> <i class="fa-regular fa-envelope icon"></i>adoteumpet@gmail.com</p>
+        </div>
 
-    </div>
-
-    </div>
-
-    <div class="credits">
-
-      <h1 class="logo">Adote<span>um</span>Pet<span>.</span></h1>
-
-      <p>© 2024 Adote um Pet | Built By <a target="_blank" href="#">Turma-05</a></p>
-
-    </div>
-
-    <div class="social-icons">
-
-      <a class="social-link" target="_blank" href="https://www.instagram.com/luminarmidia/"><i
-          class="fa-brands fa-instagram"></i></a>
-
-      <a class="social-link" href="https://web.whatsapp.com/send/?phone=5591992692808"><i
-          class="fa-brands fa-whatsapp"></i></a>
-
-    </div>
-
-  </footer>
-
+    </footer>
+    <script src="cadastro.js"></script>
 </body>
-
-<script src="cadastro.js"></script>
 
 </html>
