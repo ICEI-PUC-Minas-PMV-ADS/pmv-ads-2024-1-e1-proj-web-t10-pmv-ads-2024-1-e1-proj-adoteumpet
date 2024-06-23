@@ -1,25 +1,33 @@
-document.getElementById('sendButton').addEventListener('click', function(){
+function loadAnimalCards() {
+    let animals = JSON.parse(localStorage.getItem('animals')) || [];
+    let cardsContainer = document.getElementById('pets');
 
-    // Obtém os valores dos inputs
-    let nome = document.getElementById('nome').value;
-    let email = document.getElementById('email').value;
-    let telefone = document.getElementById('telefone').value;
-    let senha = document.getElementById('senha').value;
+    animals.forEach(function(animal) {
+        // Cria um novo elemento div para representar o card do animal
+        let card = document.createElement('div');
+        card.classList.add('card');
 
+        // Cria um elemento de imagem para exibir a foto do animal, se disponível
+        if (animal.foto) {
+            let img = document.createElement('img');
+            img.src = animal.foto;
+            img.alt = 'Foto do animal';
+            card.appendChild(img);
+        }
 
-    let users = JSON.parse(localStorage.getItem('users')) || [];
+        // Cria um elemento de parágrafo para exibir o nome do animal
+        let nome = document.createElement('h4');
+        nome.textContent = `Nome: ${animal.nome}`
+        card.appendChild(nome);
 
-    let newUser = {
-        name: nome,
-        email: email,
-        password: senha,
-        telephone: telefone,
-    };
+        let caracteristicas = document.createElement('h4');
+        caracteristicas.textContent = `Características: ${animal.caracteristicas}`
+        card.appendChild(caracteristicas);
 
-    users.push(newUser);
+        // Adiciona o card ao contêiner de cards
+        cardsContainer.appendChild(card);
+    });
+}
 
-    localStorage.setItem('users', JSON.stringify(users));
-
-    // Exemplo de feedback ao usuário (opcional)
-    alert('Dados armazenados com sucesso!');
-})
+// Chama a função para carregar os cards quando a página carregar
+window.addEventListener('load', loadAnimalCards);
