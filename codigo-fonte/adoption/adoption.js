@@ -1,204 +1,43 @@
-html {
-    scroll-behavior: smooth;
-}
+function loadAnimalCards() {
+    console.log(JSON.parse(localStorage.getItem('animals')))
+    let animals = JSON.parse(localStorage.getItem('animals')) || [];
+    let cardsContainer = document.getElementById('cards-container');
 
-body {
-    font-family: "montserrat";
-    width: 100%;
-    background-color: var(--primary-soft);
-}
+    animals.forEach(function(animal) {
+        // Cria um novo elemento div para representar o card do animal
+        let card = document.createElement('div');
+        card.classList.add('card-content');
 
-main {
-    height: 100%;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        // Cria um elemento de imagem para exibir a foto do animal, se disponível
+        if (animal.foto) {
+            let img = document.createElement('img');
+            img.src = animal.foto;
+            img.alt = 'Foto do animal';
+            card.appendChild(img);
+        }
 
-.presentation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 250px;
-    background-color: var(--primary-blue);
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px 4px, rgba(0, 0, 0, 0.2) 0px 4px 0px inset;
-}
+        // Cria um elemento de parágrafo para exibir o nome do animal
+        let nome = document.createElement('h4');
+        nome.textContent = `Nome: ${animal.nome}`
+        card.appendChild(nome);
 
-.presentation .title {
-    color: var(--primary-soft);
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 28px;
-}
+        let raca = document.createElement('h4');
+        raca.textContent = `Características: ${animal.raca}`
+        card.appendChild(raca);
 
-.presentation .subtitle {
-    color: var(--primary-soft);
-    font-size: 18px;
-    font-weight: 600;
-}
+        let caracteristicas = document.createElement('h4');
+        caracteristicas.textContent = `Características: ${animal.caracteristicas}`
+        card.appendChild(caracteristicas);
 
-.indice {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 0;
-}
+        let btnAdotar = document.createElement('button')
+        btnAdotar.textContent = 'Adotar'
+        card.appendChild(btnAdotar);
 
-.indice .title {
-    color: var(--primary-blue);
-    margin-bottom: 20px;
-    font-size: 24px;
+        // Adiciona o card ao contêiner de cards
+        cardsContainer.appendChild(card);
+    })
 }
+document.addEventListener('DOMContentLoaded', function() {
+    loadAnimalCards();
+});
 
-.indice .species {
-    display: flex;
-    gap: 20px;
-}
-
-.indice .species .species-btn {
-    color: var(--primary-soft);
-    background-color: var(--primary-gray);
-    font-size: 18px;
-    padding: 10px 40px;
-    border-radius: 10px;
-    transition: 0.3s ease-in-out;
-}
-
-.indice .species .species-btn:hover {
-    color: var(--primary-blue);
-    background-color: var(--primary-orange);
-    cursor: pointer;
-}
-
-.search-area {
-    display: flex;
-    justify-content: center;
-    padding: 15px 50px;
-    width: 100%;
-}
-
-.search-area .search {
-    background-color: var(--background-soft);
-    padding: 10px 20px;
-    font-size: 18px;
-    width: 100%;
-    height: 48px;
-    border-radius: 15px;
-    border: none;
-}
-
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.card {
-    border: 2px solid var(--primary-orange);
-    border-radius: 8px;
-    overflow: hidden;
-    width: 300px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    color: var(--primary-blue);
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.card-content {
-    padding: 15px;
-}
-
-.card-content h3 {
-    margin: 0;
-    font-size: 1.5em;
-}
-
-.card-content p {
-    margin: 10px 0;
-}
-
-.card-content ul {
-    padding-left: 20px;
-}
-
-.card-content .btn a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: var(--primary-orange);
-    color: var(--primary-soft);
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
-    transition: 0.3s ease-in-out;
-}
-
-.card-content .btn a:hover {
-    background-color: var(--background-soft);
-    cursor: pointer;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: var(--primary-blue);
-    color: var(--primary-soft);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px 4px, rgba(0, 0, 0, 0.2) 0px 4px 0px inset;
-}
-
-footer .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-footer .info p {
-    margin: 0;
-}
-
-footer .credits {
-    margin-top: 20px;
-}
-
-footer .credits .logo {
-    font-size: 24px;
-    color: var(--primary-soft);
-}
-
-footer .credits p {
-    margin: 5px 0;
-}
-
-footer .social-icons {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-footer .social-icons a {
-    color: var(--primary-soft);
-    font-size: 24px;
-    transition: color 0.3s ease-in-out;
-}
-
-footer .social-icons a:hover {
-    color: var(--primary-orange);
-    cursor: pointer;
-}
