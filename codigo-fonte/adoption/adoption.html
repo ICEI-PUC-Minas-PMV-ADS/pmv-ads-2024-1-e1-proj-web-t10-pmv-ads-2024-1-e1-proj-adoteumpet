@@ -3,19 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/menu-footer.css">
     <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/adoption.css">
     <script src="https://kit.fontawesome.com/b4c4ed9305.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Adoção</title>
     <style>
-        /* Adicione aqui o CSS atualizado */
-        html {
-            scroll-behavior: smooth;
-        }
 
         body {
             font-family: "montserrat";
@@ -114,7 +109,7 @@
             margin-top: 30px;
         }
 
-        .card {
+        .card-content {
             border: 1px solid #ccc;
             border-radius: 8px;
             overflow: hidden;
@@ -126,7 +121,7 @@
             color: var(--primary-soft);
         }
 
-        .card img {
+        .card-content img {
             width: 100%;
             height: 200px;
             object-fit: cover;
@@ -145,11 +140,7 @@
             margin: 10px 0;
         }
 
-        .card-content ul {
-            padding-left: 20px;
-        }
-
-        .card-content .btn a {
+        .card-content .btn {
             display: inline-block;
             padding: 10px 20px;
             background-color: var(--primary-orange);
@@ -162,59 +153,6 @@
 
         .card-content .btn a:hover {
             background-color: var(--background-soft);
-            cursor: pointer;
-        }
-
-        footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            background-color: var(--primary-blue);
-            color: var(--primary-soft);
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px 4px, rgba(0, 0, 0, 0.2) 0px 4px 0px inset;
-        }
-
-        footer .info {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-        }
-
-        footer .info p {
-            margin: 0;
-        }
-
-        footer .credits {
-            margin-top: 20px;
-        }
-
-        footer .credits .logo {
-            font-size: 24px;
-            color: var (--primary-soft);
-        }
-
-        footer .credits p {
-            margin: 5px 0;
-        }
-
-        footer .social-icons {
-            display: flex;
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        footer .social-icons a {
-            color: var (--primary-soft);
-            font-size: 24px;
-            transition: color 0.3s ease-in-out;
-        }
-
-        footer .social-icons a:hover {
-            color: var (--primary-orange);
             cursor: pointer;
         }
     </style>
@@ -241,24 +179,10 @@
             <p class="subtitle">Conecte-se ao pet que mais se identifique!</p>
         </div>
 
-        <div class="indice">
-            <h1 class="title">Espécies</h1>
-            <ul class="species">
-                <li class="species-btn">Cães</li>
-                <li class="species-btn">Gatos</li>
-                <li class="species-btn">Aves</li>
-                <li class="species-btn">Outros</li>
-            </ul>
-        </div>
 
-        <div class="search-area">
-            <input class="search" type="text" placeholder="Pesquisar...">
-        </div>
-
-        <div class="cards-container">
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
+        <div id="cards-container">
+            <!--<div class="card-content">
+                    <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
                     <h3>Lorem 01</h3>
                     <p>Idade: 02 Anos</p>
                     <p>Raça: Lorem</p>
@@ -267,95 +191,8 @@
                         <li>Lorem ipsum</li>
                         <li>Lorem ipsum</li>
                     </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
-                    <h3>Lorem 02</h3>
-                    <p>Idade: 02 Anos</p>
-                    <p>Raça: Lorem</p>
-                    <p>História: Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, tempora deserunt nisi dolor asperiores nemo accusamus...</p>
-                    <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
-                    <h3>Lorem 03</h3>
-                    <p>Idade: 02 Anos</p>
-                    <p>Raça: Lorem</p>
-                    <p>História: Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, tempora deserunt nisi dolor asperiores nemo accusamus...</p>
-                    <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
-                    <h3>Lorem 04</h3>
-                    <p>Idade: 02 Anos</p>
-                    <p>Raça: Lorem</p>
-                    <p>História: Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, tempora deserunt nisi dolor asperiores nemo accusamus...</p>
-                    <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
-                    <h3>Lorem 05</h3>
-                    <p>Idade: 02 Anos</p>
-                    <p>Raça: Lorem</p>
-                    <p>História: Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, tempora deserunt nisi dolor asperiores nemo accusamus...</p>
-                    <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
-                    <h3>Lorem 06</h3>
-                    <p>Idade: 02 Anos</p>
-                    <p>Raça: Lorem</p>
-                    <p>História: Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, tempora deserunt nisi dolor asperiores nemo accusamus...</p>
-                    <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/caramelo-1.jpeg" alt="Pet 1">
-                <div class="card-content">
-                    <h3>Lorem 07</h3>
-                    <p>Idade: 02 Anos</p>
-                    <p>Raça: Lorem</p>
-                    <p>História: Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, tempora deserunt nisi dolor asperiores nemo accusamus...</p>
-                    <ul>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ul>
-                    <div class="btn"><a href="#">Ver mais</a></div>
-                </div>
-            </div>
-
-
+                    <div class="btn"><a href="#">Adotar</a></div>
+                </div> -->
 
 
             <!-- Adicione mais cards conforme necessário -->
@@ -377,8 +214,9 @@
             <a class="social-link" href="https://web.whatsapp.com/send/?phone=5591992692808"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
     </footer>
-
+    <script src="adoption.js"></script>
 </body>
-<script src="adoption.js"></script>
+
 
 </html>
+
