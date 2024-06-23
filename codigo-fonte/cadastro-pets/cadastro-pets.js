@@ -1,4 +1,6 @@
-document.getElementById('submitButton').addEventListener('click', function(){
+let submitButton = document.getElementById('submitButton');
+
+    submitButton.addEventListener('click', function() {
 
     let nome = document.getElementById('nome').value;
     let especie = document.getElementById('especie').value;
@@ -6,7 +8,7 @@ document.getElementById('submitButton').addEventListener('click', function(){
     let caracteristicas = document.getElementById('caracteristicas').value;
     var foto = document.getElementById("foto").value;
     
-    let animals = JSON.parse(localStorage.getItem('animals')) || [];
+    let animals = JSON.parse(localStorage.getItem('animals')) || []
 
     let newAnimal = {
         nome: nome,
@@ -14,7 +16,7 @@ document.getElementById('submitButton').addEventListener('click', function(){
         raca: raca,
         caracteristicas: caracteristicas,
         foto: foto
-    };
+    }
 
     animals.push(newAnimal);
 
