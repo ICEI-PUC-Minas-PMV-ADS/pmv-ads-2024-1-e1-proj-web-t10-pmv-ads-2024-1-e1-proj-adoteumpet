@@ -10,7 +10,7 @@ function login() {
     if (user) {
         console.log('Usuário encontrado:', user);
         alert('Login bem-sucedido! Bem-vindo, ' + user.name);
-        window.location.href = '../ong-profile/ongProfile.html'
+        window.location.href = '../perfil/perfil.html'
     } else {
         console.log('Usuário não encontrado ou credenciais inválidas');
         alert('Erro de login! Verifique suas credenciais.');
