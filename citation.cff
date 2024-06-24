@@ -1,0 +1,25 @@
+message: Please cite this software using these metadata.
+title: Adote um Pet
+authors:
+  - family-names: Marques de Paiva Oliveira
+    given-names: Vinicius
+  - family-names: Matheus Silva Brito
+    given-names: Samuel
+  - family-names: Aparecida Pinto Porto
+    given-names: Adele
+  - family-names: Hugo de Matos Batista
+    given-names: Victor
+  - family-names: Hermogenes Canuto Neto
+    given-names: Agenor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Azevedo Nigri do Carmo
+    given-names: Humberto
+keywords:
+  - Adoção
+  - Pets
+  - Adotantes
+  - ONG's
+repository-code: https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/pmv-ads-2024-1-e1-proj-adoteumpet
+version: 1.0.0
+date-released: 2024-06-23
