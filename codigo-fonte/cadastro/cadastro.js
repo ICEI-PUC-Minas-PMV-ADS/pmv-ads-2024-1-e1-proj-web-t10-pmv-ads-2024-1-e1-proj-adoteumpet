@@ -22,4 +22,6 @@ document.getElementById('sendButton').addEventListener('click', function(){
 
     // Exemplo de feedback ao usuário (opcional)
     alert('Dados armazenados com sucesso!');
+
+    window.location.href="../login/login.html"
 })
