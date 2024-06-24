@@ -78,9 +78,9 @@ body {
 .nosso-trabalho{
   display: flex;
   justify-content: center;
+  align-items: center;
   background-size: cover;
   height: 750px;
-  align-items: center;
   gap: 100px;
   background-color: var(--primary-soft);
 }
@@ -102,6 +102,11 @@ body {
   line-height: 30px;
   margin-bottom: 30px;
   font-size: 24px;
+}
+
+.nosso-trabalho span{
+  color: var(--primary-orange);
+  font-weight: 600;
 }
 
 .nosso-trabalho .trabalho-img{
@@ -138,7 +143,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 10px 10px 10px;
+  padding: 40px 30px 10px 30px;
   border-radius: 15px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -153,7 +158,7 @@ body {
   text-align: center;
   font-size: 18px;
   margin-bottom: 30px;
-  max-width: 350px;
+  width: 320px;
   color: var(--primary-blue);
 }
 
@@ -203,6 +208,7 @@ body {
 .depoimentos .depoimento-card{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   max-width: 540px;
   padding: 60px;
   border-radius: 15px;
