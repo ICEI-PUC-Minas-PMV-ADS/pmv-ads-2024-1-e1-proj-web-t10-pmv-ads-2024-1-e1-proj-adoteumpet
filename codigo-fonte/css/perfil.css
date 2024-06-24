@@ -18,6 +18,7 @@ main{
 }
 
 .titulo{
+    color: var(--primary-blue);
     font-size: 36px;
     margin-bottom: 50px;
 }
