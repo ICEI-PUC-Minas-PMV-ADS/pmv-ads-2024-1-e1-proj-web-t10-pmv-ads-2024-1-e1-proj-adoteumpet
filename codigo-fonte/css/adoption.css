@@ -1,134 +1,95 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: "montserrat";
     width: 100%;
     background-color: var(--primary-soft);
 }
 
-main{
-    height: 100%;
+main {
+    height: 100vh;
     padding: 50px;
-}
-
-.presentation{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 250px;
 }
 
-.presentation .title{
+.presentation .title {
     color: var(--primary-blue);
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
 }
 
-.presentation .subtitle{
+.presentation .subtitle {
     color: var(--primary-blue);
     font-size: 18px;
     font-weight: 600;
 }
 
-.indice{
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.aviso {
+    color: var(--primary-blue);
+}
+
+.card-content {
+    border: 1px solid var(--background-soft);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 50px;
-}
-
-.indice .title{
+    background-color: var(--primary-soft);
     color: var(--primary-blue);
-    margin-bottom: 30px;
 }
 
-.indice .species{
-    display: flex;
-    gap: 20px;
+.card-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-.indice .species .species-btn{
+.card-content {
+    padding: 15px;
+}
+
+.card-content h1 {
+
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-content p {
+    color: var(--primary-blue);
+    margin: 10px 0;
+}
+
+.card-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-blue);
     color: var(--primary-soft);
-    background-color: var(--primary-gray);
-    font-size: 18px;
-    padding: 10px 40px;
-    border-radius: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
     transition: 0.3s ease-in-out;
 }
 
-.indice .species .species-btn:hover{
-    color: var(--primary-blue);
+.card-content a:hover {
     background-color: var(--primary-orange);
     cursor: pointer;
-}
-
-.search-area{
-    display: flex;
-    justify-content: center;
-    padding: 15px 50px;
-}
-
-.search-area .search{
-    background-color: var(--background-soft);
-    padding: 0px 20px;
-    font-size: 18px;
-    width: 100%;
-    height: 48px;
-    border-radius: 15px;
-    border: none;
-}
-
-.list{
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    width: 95%;
-    height: 455px;
-    border-collapse: collapse;
-    background-color: var(--primary-gray);
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
-thead{
-    font-size: 20px;
-    font-weight: 700;
-    height: 75px;
-}
-
-th, td{
-    font-weight: 400;
-    border-collapse: separate;
-    border: 1px solid var(--primary-soft);
-}
-
-th{
-    background-color: var(--primary-color);
-}
-
-td{
-    text-align: center;
-    background-color: var(--primary-color);
-    padding: 0 20px;
-}
-
-img{
-    height: 115px;
-    width: 150px;
-}
-
-a{
-    font-size: 14px;
-    color: var(--primary-soft);
-    text-align: center;
-    transition: 0.3s ease-in-out;
-    font-weight: 600;
-}
-
-a:hover{
-    color: var(--primary-orange);
 }
