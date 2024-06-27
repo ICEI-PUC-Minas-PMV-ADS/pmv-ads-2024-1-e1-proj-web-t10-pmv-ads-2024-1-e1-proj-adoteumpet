@@ -46,6 +46,11 @@ function loadAnimalCards() {
         // Adiciona o card ao contêiner de cards
         cardsContainer.appendChild(card);
     })
+
+     document.getElementById('btnAdotar').addEventListener('click', function(){
+        alert('Sua requisição de adoção foi enviada para a ONG responsável pelo animal.')
+    })
+    
 }
 document.addEventListener('DOMContentLoaded', function() {
     loadAnimalCards();
